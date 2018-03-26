@@ -12,10 +12,10 @@ Codes are finishing, please wait.
 
 
 ## Step 1: Init VGG net and APN net
-> Init VGG net
+- Init VGG net
 Using ImageNet-pretrained VGG119 for initialization.
 
-> Init APN net
+- Init APN net
 Train APN net through finding the maximal value in feature map(conv5_4), and model it to a regression problem.
 
 The hyper-parameters are:
