@@ -16,8 +16,7 @@ Codes are finishing, please wait.
 Using ImageNet-pretrained VGG119 for initialization.
 
 2) Init APN net
-Train APN net through finding the maximal value in feature map(conv5_4), and model it to a regression problem.
-
+Train APN net through finding the maximal value in feature map(conv5_4), and model it to a regression problem with MSEloss.
 The hyper-parameters are:
 ```
 self.LR_BASE = 0.0001*0.001
